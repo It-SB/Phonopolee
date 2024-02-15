@@ -671,14 +671,18 @@ img {
   .home__tree-2 {
     right: -4rem;
   }
-  .items__container {
+  /* .items__container {
     grid-template-columns: 180px;
+  } */
+  .items__container {
+    grid-template-columns: repeat(3, 400px);
+    gap: 6rem 5.5rem;
   }
   .party__img {
     width: 200px;
   }
   .footer__content {
-    gap: 2.5rem;
+    gap: 3.5rem;
   }
 }
 
@@ -695,7 +699,7 @@ img {
     width: 200px;
   }
   .items__container {
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 400px);
   }
   .footer__content {
     grid-template-columns: repeat(3, max-content);
@@ -709,7 +713,8 @@ img {
     margin-bottom: 4rem;
   }
   .nav {
-    height: calc(var(--header-height) + 1.5rem);
+    font-size: 35px;
+    height: calc(var(--header-height) + 2.5rem);
   }
   .nav__toggle,
   .nav__close,
