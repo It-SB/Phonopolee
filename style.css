@@ -656,13 +656,14 @@ img {
   bottom: 3rem;
 }
 /*=============== BREAKPOINTS ===============*/
+
 /* For small devices */
-@media screen and (max-width: 340px) {
+@media screen and (min-width: 340px) {
   .container {
     margin-inline: 1rem;
   }
   .home__title {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .home__tree-1 {
     left: -4rem;
@@ -720,8 +721,8 @@ img {
     column-gap: 4rem;
   }
   .category__container {
-    grid-template-columns: repeat(2, 228px);
-    column-gap: 4rem;
+    grid-template-columns: repeat(2, 428px);
+    column-gap: 3rem;
   }
   .footer__content {
     grid-template-columns: repeat(4, max-content);
