@@ -682,7 +682,7 @@ img {
     width: 200px;
   }
   .footer__content {
-    gap: 3.5rem;
+    gap: 6.5rem;
   }
 }
 
@@ -702,7 +702,7 @@ img {
     grid-template-columns: repeat(1, 400px);
   }
   .footer__content {
-    grid-template-columns: repeat(3, max-content);
+    grid-template-columns: repeat(4, max-content);
   }
 }
 @media screen and (min-width: 767px) {
@@ -904,9 +904,9 @@ img {
     width: 600px;
     margin-top: 3rem;
   }
-/*   .footer__tree-2 {
+  .footer__tree-2 {
     left: 10%;
-  } */
+  }
 }
 
 /* For 2K resolution (2048 * 1152) */
