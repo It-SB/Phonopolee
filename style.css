@@ -699,7 +699,7 @@ img {
     width: 200px;
   }
   .items__container {
-    grid-template-columns: repeat(2, 400px);
+    grid-template-columns: repeat(1, 400px);
   }
   .footer__content {
     grid-template-columns: repeat(3, max-content);
